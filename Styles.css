@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#flag-image {
+    width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#quiz-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#quiz-container button {
+    background: grey;
+    color: #fff;
+    width: 280px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Element id will always override the element class. */
+
+#quiz-container button:hover {
+    background: lightgrey;
+}
+
+/* The hover function of the buttons is being over ridden by the javascript style background attributes in a function. */
